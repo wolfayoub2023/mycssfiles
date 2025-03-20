@@ -1154,3 +1154,46 @@
     --depth: 1;
     --noise: 0
 }
+
+:root:has(input.theme-controller[value=synthwave2]:checked),
+[data-theme=synthwave2] {
+  /* Use dark color scheme for a synthwave vibe */
+  color-scheme: dark;
+
+  /* Base colors for backgrounds and content */
+  --color-base-100: #1e1e2e; /* Dark background */
+  --color-base-200: #1a1a2e; /* Slightly lighter */
+  --color-base-300: #151521; /* Even darker accent */
+  --color-base-content: #e0e0e0; /* Light text for readability */
+
+  /* Neon accents */
+  --color-primary: #ff5c8a; /* Neon pink */
+  --color-primary-content: #ffffff;
+  --color-secondary: #08fdd8; /* Neon cyan */
+  --color-secondary-content: #ffffff;
+  --color-accent: #9d4edd; /* Neon purple */
+  --color-accent-content: #ffffff;
+
+  /* Neutral and utility colors */
+  --color-neutral: #222831;
+  --color-neutral-content: #eeeeee;
+  --color-info: #00d4ff; /* Bright blue for info messages */
+  --color-info-content: #ffffff;
+  --color-success: #20bf55; /* Vibrant green for success */
+  --color-success-content: #ffffff;
+  --color-warning: #f9c74f; /* Bold yellow for warnings */
+  --color-warning-content: #ffffff;
+  --color-error: #f94144; /* Striking red for errors */
+  --color-error-content: #ffffff;
+
+  /* Optional settings for component styling */
+  --radius-selector: 1rem;
+  --radius-field: 2rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 2px;
+  --depth: 1;
+  --noise: 0;
+}
+
